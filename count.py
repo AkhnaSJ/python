@@ -1,4 +1,5 @@
-x = int(input("Enter a number: "))
+x = int(input("Number: "))
+
 count = 0
 while x != 0:
     x = x // 10

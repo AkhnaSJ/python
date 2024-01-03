@@ -1,8 +1,11 @@
-x = int(input("Enter a number: "))
+x = int(input("Number: "))
+
 fact = 1
-if (x == 0):
-    print("Factorial of 0 is 1")
+print("Factorial: ",end='')
+
+if x == 0:
+    print(1)
 else:
     for i in range(1,x+1):
         fact *= i
-    print(f"Factorial of {x} is {fact}")
+    print(fact)

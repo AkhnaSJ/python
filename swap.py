@@ -1,9 +1,11 @@
-a = int(input("Enter 1st number : "))
-b = int(input("Enter 2nd number : "))
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
 
+#Swapping
 a = a+b
 b = a-b
 a = a-b
 
-print("1st number : ",a)
-print("2nd number : ",b)
+print("After swapping:")
+print("First number: ",a)
+print("Second number: ",b)

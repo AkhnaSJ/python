@@ -4,5 +4,8 @@ pi = 3.14
 area = pi*r*r
 perimeter = 2*pi*r
 
-print("Area : ",area)
-print("Perimeter : ",perimeter)
+print(f"Area: {area}\nPerimeter: {perimeter}")
+
+#print("Area : ",pi*r*r)
+#print("Perimeter : ",2*pi*r)
+

@@ -10,8 +10,7 @@ def fibonacci(n):
         else:
             c = a+b
             print(c)
-            a,b = b,cne
-
+            a, b = b, c
         i += 1
     
 fibonacci(int(input("Enter the no: of terms: ")))
